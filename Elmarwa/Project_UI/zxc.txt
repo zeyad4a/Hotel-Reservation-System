@@ -1,8 +1,0 @@
-باقي اطبق الطباعه على السوبر ادمن و اطبق التغيرات كلها 
-
-
-    $query = mysqli_query(
-        $conn,
-        "INSERT into appointment( r_type , roomID , check_in , check_out , nights , paid , client_name , client_phone , client_id , commnet , employname , employId , remind , Price , apstatue) 
-                        values( '$type' , '$number' , '$in' , '$out' , '$night' , '$Payed' ,  CONCAT('$c1_n', '\n', '$c2_n', '\n', '$c3_n'),  CONCAT('$c1_ph', '\n', '$c2_ph', '\n', '$c3_ph'),  CONCAT('$c1_id', '\n', '$c2_id', '\n', '$c3_id'), '$comment' , '$employname' , '$employid' , '$remind' , '$price' , '$statue')"
-    );
